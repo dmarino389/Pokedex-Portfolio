@@ -19,7 +19,7 @@ packaging==23.1
 psycopg2==2.9.7
 PyJWT==2.8.0
 python-dotenv==1.0.0
-pywin32==306
+
 SQLAlchemy==2.0.21
 typing_extensions==4.5.0
 urllib3==1.26.15
