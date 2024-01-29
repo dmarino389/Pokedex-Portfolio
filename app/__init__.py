@@ -3,13 +3,12 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_login import LoginManager
 from config import Config
+from dotenv import load_dotenv
 
+load_dotenv()  # Load environment variables
 
 app = Flask(__name__)
 app.config.from_object(Config)
-
-# Add this line for testing
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
 
 db = SQLAlchemy(app)  # Initialize SQLAlchemy with the app
 migrate = Migrate(app, db)
