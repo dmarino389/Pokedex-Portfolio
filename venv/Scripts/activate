@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\marin\OneDrive\Desktop\padowans131\week5\Pokehw\venv"
+VIRTUAL_ENV="C:\Users\marin\OneDrive\Desktop\Applications\Need To Deploy\Pokehw\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

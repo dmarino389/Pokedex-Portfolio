@@ -15,7 +15,7 @@ def fetch_pokemon_info(pokemon_name):
             'defense': data['stats'][2]['base_stat'],
             'sprite': data['sprites']['front_default'],
             'abilities': ', '.join(abilities)
-        }
+            }
 
         return pokemon_info
     else:

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\marin\OneDrive\Desktop\padowans131\week5\Pokehw\venv
+set VIRTUAL_ENV=C:\Users\marin\OneDrive\Desktop\Applications\Need To Deploy\Pokehw\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

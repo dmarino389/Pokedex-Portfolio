@@ -2,9 +2,13 @@
 
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import UserMixin
+# app/models.py
+from . import db  # Import the db instance from your application package
+from flask_login import UserMixin
 
-# Create the SQLAlchemy instance without passing the app
-db = SQLAlchemy()
+# rest of your code...
+
+
 
 class User(db.Model, UserMixin):
     id = db.Column(db.Integer, primary_key=True)
